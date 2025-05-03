@@ -1,0 +1,122 @@
+.home {
+    margin: 10px;
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .banner-img-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .banner-img {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    display: block;
+  }
+  
+  /* Black gradient overlay */
+  .black-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to right, black 5%, transparent 100%);
+    pointer-events: none;
+  }
+  
+  /* Layout split */
+  .hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 20%;
+    color: white;
+  }
+  
+  .hero-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .hero-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 700px;
+  }
+  
+  .hero-right {
+    flex: 1;
+    min-width: 300px;
+    max-width: 560px;
+  }
+  
+  .caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .hero-btns .btn img {
+    width: 25px;
+  }
+  
+  .hero-btns .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero-btns .btn.dark-btn {
+    color: #fff;
+    background: #666d6eb3;
+  }
+  
+  .hero-btns .btn:hover {
+    background: #ffffffbf;
+  }
+  
+  .hero-btns .btn.dark-btn:hover {
+    background: #6d6d6e66;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
