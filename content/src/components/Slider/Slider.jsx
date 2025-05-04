@@ -1,9 +1,26 @@
 import React from 'react'
+import './slider.css'
+import {films} from '../../assets/data'
 
 const Slider = () => {
+  const handleCardClick = (film) => {
+    alert(`Clicked on ${film.title}`);
+  };
+
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="wrapper">
+        <div className="image-slider">
+            {films.map((film) => (
+              <div
+                key={film.id}
+                className='slide-div'
+                onClick={() => handleCardClick(film)}
+              >
+                  <img src={film.image} alt={film.title} className="img"/>
+              </div>
+            ))}
+            <div style={{ width: '100px', flexShrink: 0 }}></div> {/* Spacer */}
+        </div>
     </div>
   )
 }
