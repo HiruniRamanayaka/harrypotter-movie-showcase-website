@@ -1,10 +1,12 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-      <h1>footer</h1>
-    </div>
+    <footer className="footer">
+      <p>&copy; 2025 Wizarding World. All rights reserved.</p>
+      <p>Hiruni Ramanayaka</p>
+    </footer>
   )
 }
 

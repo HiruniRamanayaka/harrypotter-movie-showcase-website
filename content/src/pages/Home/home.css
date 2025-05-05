@@ -1,5 +1,5 @@
 .home {
-    margin: 10px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
   }
@@ -9,7 +9,7 @@
     overflow: hidden; 
     min-height: 400px;
   }
-  
+
   .banner-img-wrapper {
     position: relative;
     width: 100%;
@@ -19,7 +19,7 @@
     background-color: black;
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     object-fit: contain;
     display: block;
   }
