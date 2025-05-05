@@ -1,0 +1,121 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    margin: auto;
+    padding: 60px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+    }
+
+.container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('/images/banner.jpg') center/cover no-repeat;
+    filter: blur(8px) brightness(0.4);
+    z-index: -2;
+  }
+
+.film-deatil-container {
+    background: linear-gradient(180deg, #0d0d0d 0%, #1c1c1c 100%);
+    color: #fff;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .back-button {
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: color 0.2s ease;
+  }
+  
+  .back-button:hover {
+    color: #58a6ff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+  
+  .details-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .left-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .film-image {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  .right-details {
+    flex: 2;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ddd;
+  }
+  
+  .right-details p {
+    margin-bottom: 16px;
+  }
+  
+  .right-details strong {
+    color: #58a6ff;
+  }
+
+  .info-link{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+  }
+  
+  .info-link a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffd700;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .info-link a:hover {
+    color: #fff;
+  }
+
+  .watch-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #58a6ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .watch-link:hover {
+    background: #4094e0;
+  } 

@@ -9,6 +9,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Albus Dumbledore, Severus Snape, Lord Voldemort",
         funFact: "This film is based on J.K. Rowling’s first book in the series and introduces the world to Hogwarts, the wizarding world, and the magic of Harry’s journey.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-philosophers-stone-2001-sinhala-subtitles/"
     },
     {
         id: 2,
@@ -20,6 +21,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Ginny Weasley, Tom Riddle (Lord Voldemort’s teenage self)",
         funFact: "The film features the flying car scene, which became iconic for fans of the series.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-chamber-of-secrets-2002-sinhala-subtitles/"
     },
     {
         id: 3,
@@ -31,6 +33,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Sirius Black, Remus Lupin, Peter Pettigrew",
         funFact: "This is the first film to feature the Marauder’s Map and the Time-Turner, magical devices that became key elements in the story.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-prisoner-of-azkaban-2004-sinhala-subtitles/"
     },
     {
         id: 4,
@@ -42,6 +45,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Cedric Diggory, Lord Voldemort, Barty Crouch Jr.",
         funFact: "The film marks the first appearance of Ralph Fiennes as Lord Voldemort and is known for the shocking return of the Dark Lord.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-goblet-of-fire-2005-sinhala-subtitles/"
     },
     {
         id: 5,
@@ -53,6 +57,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Dolores Umbridge, Luna Lovegood, Bellatrix Lestrange",
         funFact: "The film introduced the powerful character of Luna Lovegood, played by Evanna Lynch.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-order-of-the-phoenix-2007-sinhala-subtitles/"
     },
     {
         id: 6,
@@ -64,6 +69,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Severus Snape, Draco Malfoy, Dumbledore",
         funFact: "This film is known for revealing the true identity of the “Half-Blood Prince,” Severus Snape.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-half-blood-prince-2009-sinhala-subtitles/"
     },
     {
         id: 7,
@@ -75,6 +81,7 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Lord Voldemort, Bellatrix Lestrange, Death Eaters",
         funFact: "The film includes the introduction of the “Deathly Hallows” symbol, which plays a key role in the final battle.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-deathly-hallows-part-1-2010-sinhala-subtitles/"
     },
     {
         id: 8,
@@ -86,5 +93,6 @@ export const films = [
         characters: "Harry Potter, Hermione Granger, Ron Weasley, Lord Voldemort, Neville Longbottom, Ginny Weasley",
         funFact: "The film is known for its epic battle scenes at Hogwarts and the emotional farewell to the characters who have grown over the series.",
         linktoMoreInfo: "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2",
+        video: "https://sinhalasub.lk/movies/harry-potter-and-the-deathly-hallows-part-2-2011-sinhala-subtitles/"
     },
 ]

@@ -1,10 +1,15 @@
 import React from 'react'
 import './slider.css'
 import {films} from '../../assets/data'
+import { useNavigate } from 'react-router-dom';
+
 
 const Slider = () => {
+  const navigate = useNavigate();
+  
   const handleCardClick = (film) => {
-    alert(`Clicked on ${film.title}`);
+    // alert(`Clicked on ${film.title}`);
+    navigate(`/film/${film.id}`);
   };
 
   return (
