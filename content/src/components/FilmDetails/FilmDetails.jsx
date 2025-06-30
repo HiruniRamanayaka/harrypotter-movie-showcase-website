@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import {films} from '../../assets/data'
-import './FilmDetails.css'
+import './filmDetails.css'
 
 const FilmDetails = () => {
     {/*Using React Router's useParams() hook to get the id from the URL.
