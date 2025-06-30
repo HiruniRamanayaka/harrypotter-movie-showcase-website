@@ -36,7 +36,7 @@ Then open your browser at:
 Try it here: [https://harrypotter-movie-showcase-website.vercel.app/]
 
 ## Demo Video
-Demo Link: [Video link]()
+Demo Link: [Video link](https://youtu.be/CFeqqxB92EY?si=yrui8O131ELS23PH)
 
 ## GitHub Repository
 [GitHub repository link](https://github.com/HiruniRamanayaka/harrypotter-movie-showcase-website)
