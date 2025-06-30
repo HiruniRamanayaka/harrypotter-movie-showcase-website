@@ -41,5 +41,5 @@ Demo Link: [Video link]()
 ## GitHub Repository
 [GitHub repository link](https://github.com/HiruniRamanayaka/harrypotter-movie-showcase-website)
 
-👩‍💻 Author
+## 👩‍💻 Author
 R.K.H.K.Ramanayaka
